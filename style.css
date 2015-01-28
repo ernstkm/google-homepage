@@ -1,13 +1,61 @@
-body{
+*{
+  border:solid black 1px;
+}
+ody{
   margin:0;
   padding:0;
   font-family:Arial, sans-serif;
+  height:620px; width:1200px;
+  border:solid 1px black;
 }
 
 .header{
-  height:50px;
+  height:50px; width:1200px;
+  text:black 11px;
+  position:relative;
   /*border:solid 1px black;*/
 }
+.textlink{
+  height:50px; width:1000px;
+  position:relative
+  display:inline;
+  padding:5px;
+}
+.You{
+  height:24px; width:24px;
+  position:absolute;
+  margin-left:900px;
+  margin-right:300px;
+  display:inline;
+}
+.Gmail{
+  height:24px; width:24px;
+  position:absolute;
+  margin-left:950px;
+  margin-right:250;
+  display:inline;
+}
+.Images{
+  height:24px; width:24px;
+  position:absolute;
+  margin-left:1000px;
+  margin-right:200;
+  display:inline;
+}
+
+td{
+    height:2px;
+    width:2px;
+    background-color:black;
+  }
+.signin{
+  height:25px; width:35px;
+  background-color:blue;
+  text:white bold Arial;
+  text-align:center;
+  display:inline;
+}
+
 .center{
   position:relative;
   height: 600px;
@@ -29,14 +77,22 @@ body{
 }
 .logo{
   position:relative;
+  display:block;
   padding-left:40%;
   padding-top:100px;
+  padding-bottom:20px;
   /*border:solid 1px black;*/
 }
 .form{
   position:relative;
+  display:block;
   padding-left:35.5%;
   /*border:solid 1px black;*/
+}
+.querybox{
+  height:50px; width:400px;
+  margin-left:auto;
+  margin-right:auto;
 }
 .submit{
   position:relative;
@@ -45,15 +101,40 @@ body{
   font-family:Arial, sans-serif;
 }
 input{
-  margin:0px, 5px;
+  margin:2px, 5px;
+  text:bold 11px;
+
+}
+#luckybutton, #searchbutton{
+  padding:5px;
+  text:bold 11px Arial,sans-serif;
+}
+.findit{
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:3px;
+  text:bold
 }
 .cause{
   position:relative;
-  text-align:left;
+/*  height:50px; width:300px;*/
+  display:block;
   /*border:solid 1px black;*/
   font-family:Arial, sans-serif;
-}
+  text-decoration:none
 
+}
+a{
+  position:absolute;
+  text-decoration:none;
+  text-align:center;
+  margin-left:50%;
+  margin-right:50%;
+
+}
+a:hover{
+  text-decoration:underline;
+}
 .footer{
     height:50px;
     background-color:#f2f2f2;
